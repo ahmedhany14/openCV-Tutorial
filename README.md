@@ -36,11 +36,11 @@ This repo serves as a comprehensive guide to understanding and using the OpenCV 
 
 ## Installing packages
 
-1) **Clone this repository:**
+**Clone this repository:**
 
     git clone https://github.com/ahmedhany14/openCV-Tutorial.git
     cd "openCV-Tutorial"
 
-2) **Install dependencies using pip:**
+**Install dependencies using pip:**
 
     pip install -r requirements.txt
