@@ -51,7 +51,6 @@ for i in range(len(corners)):
     for j in range(i + 1, len(corners)):
         corner1 = (int(corners[i][0][0]), int(corners[i][0][1]))
         corner2 = (int(corners[j][0][0]), int(corners[j][0][1]))
-
         # create a random color
         color = tuple(np.random.random(size=3) * 256)
         new_img = cv2.line(new_img, corner1, corner2, color, 1)
