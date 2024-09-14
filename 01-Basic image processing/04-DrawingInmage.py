@@ -61,7 +61,7 @@ while True:
     7) the thickness of the text
     """
 
-    text_img = cv2.putText(
+    text_img = cv2.putText( 
         frame.copy(),
         "Ahmed hany is here right now",
         (0, 100),
